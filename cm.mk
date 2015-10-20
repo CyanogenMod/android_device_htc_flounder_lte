@@ -58,5 +58,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := cm_flounder_lte
+PRODUCT_DEVICE := flounder_lte
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 9
