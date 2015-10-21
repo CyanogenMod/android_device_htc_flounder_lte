@@ -31,6 +31,9 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_CMDLINE := androidboot.selinux=enforcing
 TARGET_PREBUILT_KERNEL := false
 
+# Assert for recovery compatibility
+TARGET_OTA_ASSERT_DEVICE := flounder,flounder_lte
+
 # Extra Packages
 PRODUCT_PACKAGES += \
 	com.android.nfc_extras
