@@ -56,8 +56,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=flounder_lte \
-    BUILD_FINGERPRINT=google/volantisg/flounder_lte:5.1.1/LMY48T/2237560:user/release-keys \
-    PRIVATE_BUILD_DESC="volantisg-user 5.1.1 LMY48T 2237560 release-keys"
+    BUILD_FINGERPRINT=google/volantisg/flounder_lte:6.0/MRA58N/2289998:user/release-keys \
+    PRIVATE_BUILD_DESC="volantisg-user 6.0 MRA58N 2289998 release-keys"
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := cm_flounder_lte
