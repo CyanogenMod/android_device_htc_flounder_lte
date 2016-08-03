@@ -48,15 +48,15 @@ DEVICE_PACKAGE_OVERLAYS += \
 $(call inherit-product, device/htc/flounder/device-lte.mk)
 $(call inherit-product-if-exists, vendor/htc/flounder_lte/device-vendor.mk)
 
-# LTE Overlays 
+# LTE Overlays
 DEVICE_PACKAGE_OVERLAYS += \
 	device/htc/flounder/lte_only_overlay
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=flounder_lte \
-    BUILD_FINGERPRINT=google/volantisg/flounder_lte:6.0.1/MOB30P/2960889:user/release-keys \
-    PRIVATE_BUILD_DESC="volantisg-user 6.0.1 MOB30P 2960889 release-keys" \
-    BUILD_ID=MOB30P
+    BUILD_FINGERPRINT=google/volantisg/flounder_lte:6.0.1/MOB30W/3031100:user/release-keys \
+    PRIVATE_BUILD_DESC="volantisg-user 6.0.1 MOB30W 3031100 release-keys" \
+    BUILD_ID=MOB30W
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := cm_flounder_lte
